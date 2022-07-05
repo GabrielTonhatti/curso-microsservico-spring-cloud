@@ -16,10 +16,8 @@ public class User implements UserDetails {
 
 	private Long id;
 	private String name;
-
 	private String email;
 	private String password;
-
 	private Set<Role> roles = new HashSet<>();
 
 	public User() {
